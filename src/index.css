@@ -5,9 +5,11 @@
 */
 :root {
   /* Color Palette */
-  --walnut-brown: hsla(31, 12%, 37%, 1);
-  --battleship-gray: hsla(69, 6%, 55%, 1);
-  --ash-gray: hsla(160, 9%, 66%, 1);
-  --tea-green: hsla(120, 24%, 81%, 1);
-  --nyanza: hsla(118, 39%, 88%, 1);
+  --ghost-white: hsla(240, 100%, 99%, 1);
+  --jet: hsla(60, 4%, 16%, 1);
+  --platinum: hsla(96, 7%, 86%, 1);
+  --onyx: hsla(206, 6%, 25%, 1);
+  --alabaster: hsla(52, 17%, 91%, 1);
+  --antiflash-white: hsla(210, 13%, 94%, 1);
+  --eerie-black: hsla(0, 0%, 11%, 1)
 }
