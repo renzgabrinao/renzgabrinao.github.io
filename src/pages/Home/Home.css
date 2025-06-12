@@ -44,22 +44,23 @@ a:hover {
   margin-top: 40px;
 }
 
-#linkedin, #github {
+.linkedin, .github {
   width: 40px;
-  height: auto;
-  filter: brightness(0) saturate(100%) invert(100%);
+  height: 40px;
+  color: var(--ghost-white);
+  fill: var(--ghost-white);
   transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-#linkedin:hover, #github:hover {
+.linkedin:hover, .github:hover {
   transform: scale(1.1);
 }
 
-#linkedin {
+.linkedin {
   margin-right: 10px;
 }
 
-#github {
+.github {
   margin-left: 10px;
 }
 

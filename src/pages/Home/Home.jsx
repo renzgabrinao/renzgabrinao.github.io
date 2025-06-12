@@ -3,20 +3,19 @@ import defaultImg from "../../assets/img/default.jpg"
 import sfuLogo from '../../assets/img/logos/sfu-logo.png'
 import bcitLogo from '../../assets/img/logos/bcit-logo.png'
 import langaraLogo from '../../assets/img/logos/langara-logo.png'
-import linkedinLogo from '../../assets/img/logos/linkedin-logo.svg'
-import githubLogo from '../../assets/img/logos/github-logo.svg'
+import LinkedinLogo from '../../assets/img/logos/linkedin-logo.svg?react'
+import GithubLogo from '../../assets/img/logos/github-logo.svg?react'
 import projects from '../../assets/projects.json'
 
 
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import Nav from '../../components/Nav/Nav'
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
 
 
 function Home() {
-  // console.log(projects)
   return (
     <>
       <Nav></Nav>
@@ -29,8 +28,8 @@ function Home() {
               id='portrait'
             />
             <div className='socials'>
-              <Link><img src={linkedinLogo} alt="LinkedIn Logo" id='linkedin'/></Link>
-              <Link><img src={githubLogo} alt="GitHub Logo" id='github'/></Link>
+              <Link><LinkedinLogo className='linkedin' alt='LinkedIn Logo'/></Link>
+              <Link><GithubLogo className='github' alt='GitHub Logo'/></Link>
             </div>
           </div>
           
