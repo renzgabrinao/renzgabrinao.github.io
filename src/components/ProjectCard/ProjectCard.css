@@ -1,0 +1,16 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  background-color: var(--ghost-white);
+  padding: 10px;
+}
+
+#project-card-img {
+  object-fit:cover;
+  width: 100%;
+  height: auto;
+}

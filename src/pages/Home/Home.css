@@ -79,13 +79,13 @@ a:hover {
 .featured-projects {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: var(--onyx);
   padding: 50px;
   margin-top: 75px;
   margin-left: 75px;
   margin-right: 75px;
-  height: 500px;
+  height: 700px;
 }
 
 .featured-projects-top {
@@ -98,7 +98,7 @@ a:hover {
 .featured-projects-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 

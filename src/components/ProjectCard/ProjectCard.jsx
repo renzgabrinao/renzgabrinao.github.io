@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import defaultImg from "../../assets/img/default.jpg"
+import "./ProjectCard.css"
 
 
 function ProjectCard({ id, title, description, img }) {
@@ -10,6 +11,7 @@ function ProjectCard({ id, title, description, img }) {
         <img 
           src={defaultImg} 
           alt={`Image for ${title}`} 
+          id="project-card-img"
         />
         <div className="project-card-details">
           <h2>{title}</h2>
