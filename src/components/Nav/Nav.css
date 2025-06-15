@@ -1,3 +1,8 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
 .nav img {
   width: 100px;
   height: 100px;
