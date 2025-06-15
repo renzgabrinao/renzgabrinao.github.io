@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  background-color: var(--antiflash-white);
 }
 
 a {
@@ -80,7 +81,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--onyx);
+  background-color: var(--jet);
   padding: 50px;
   margin-top: 75px;
   margin-left: 75px;
@@ -107,7 +108,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--onyx);
+  background-color: var(--eerie-black);
   padding: 50px;
   margin: 75px;
   height: 550px;
