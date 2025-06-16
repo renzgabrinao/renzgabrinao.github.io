@@ -81,7 +81,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--jet);
+  background-color: var(--onyx);
   padding: 50px;
   margin-top: 75px;
   margin-left: 75px;
@@ -93,14 +93,14 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: var(--ghost-white);
+  ;
 }
 
 .featured-projects-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 20px;
 }
 
 
@@ -109,11 +109,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--eerie-black);
+  background-color: var(--onyx);
   padding: 50px;
   margin: 75px;
   height: 550px;
-  color: white;
+  color: var(--ghost-white);
 }
 
 .education-top {

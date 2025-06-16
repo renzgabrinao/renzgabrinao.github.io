@@ -1,5 +1,5 @@
 .projects-page {
-  background-color: var(--antiflash-white);
+  /* background-color: var(--antiflash-white); */
   padding: 75px;
   padding-top: 0px;
 }
@@ -19,6 +19,7 @@
   flex-direction: row;
   align-items: center;
   color: var(--ghost-white);
+  background-color: var(--jet);
   margin-bottom: 20px;
 }
 
@@ -26,6 +27,11 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  background-color: var(--jet);
+}
+
+.projects-page-card-top > a {
+  background-color: var(--jet);
 }
 
 .projects-page-card-list {
@@ -34,6 +40,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 30px;
+  background-color: var(--jet);
 }
 
 .projects-page-card-list > a {
