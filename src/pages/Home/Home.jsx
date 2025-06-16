@@ -45,9 +45,9 @@ function Home() {
             <Link to='/projects'>see all projects</Link>
           </div>
           <div className='featured-projects-cards'>
-            <ProjectCard key={projects[0].id} id={projects[0].id} title={projects[0].title} description={projects[0].description} />
-            <ProjectCard key={projects[1].id} id={projects[1].id} title={projects[1].title} description={projects[1].description} />
-            <ProjectCard key={projects[2].id} id={projects[2].id} title={projects[2].title} description={projects[2].description} />
+            <ProjectCard key={projects[0].id} id={projects[0].id} title={projects[0].title} description={projects[0].short_description} />
+            <ProjectCard key={projects[1].id} id={projects[1].id} title={projects[1].title} description={projects[1].short_description} />
+            <ProjectCard key={projects[2].id} id={projects[2].id} title={projects[2].title} description={projects[2].short_description} />
           </div>
 
         </div>  {/*------------------- END featured-projects ---------------------*/}
