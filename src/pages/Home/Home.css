@@ -86,7 +86,7 @@ a:hover {
   margin-top: 75px;
   margin-left: 75px;
   margin-right: 75px;
-  height: 625px;
+  height: 650px;
 }
 
 .featured-projects-top {
@@ -99,7 +99,8 @@ a:hover {
 .featured-projects-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 
