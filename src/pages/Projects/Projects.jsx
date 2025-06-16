@@ -24,7 +24,7 @@ function Projects() {
                   key={project.id} 
                   id={project.id} 
                   title={project.title} 
-                  description={project.description}
+                  description={project.short_description}
                   img={project.img}
                 />
               ))
