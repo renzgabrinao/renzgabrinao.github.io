@@ -5,7 +5,7 @@ import bcitLogo from '../../assets/img/logos/bcit-logo.png'
 import langaraLogo from '../../assets/img/logos/langara-logo.png'
 import LinkedinLogo from '../../assets/img/logos/linkedin-logo.svg?react'
 import GithubLogo from '../../assets/img/logos/github-logo.svg?react'
-import projects from '../../assets/projects.json'
+import projects from "../../assets/projects.json"
 
 
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
@@ -45,9 +45,9 @@ function Home() {
             <Link to='/projects'>see all projects</Link>
           </div>
           <div className='featured-projects-cards'>
-            <ProjectCard key={projects[0].id} id={projects[0].id} title={projects[0].title} description={projects[0].short_description} />
-            <ProjectCard key={projects[1].id} id={projects[1].id} title={projects[1].title} description={projects[1].short_description} />
-            <ProjectCard key={projects[2].id} id={projects[2].id} title={projects[2].title} description={projects[2].short_description} />
+            <ProjectCard key={projects[0].id} id={projects[0].id} title={projects[0].title} description={projects[0].short_description} img={projects[0].img} />
+            {/* <ProjectCard key={projects[1].id} id={projects[1].id} title={projects[1].title} description={projects[1].short_description} /> */}
+            {/* <ProjectCard key={projects[2].id} id={projects[2].id} title={projects[2].title} description={projects[2].short_description} /> */}
           </div>
 
         </div>  {/*------------------- END featured-projects ---------------------*/}

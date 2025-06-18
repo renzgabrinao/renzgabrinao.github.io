@@ -13,7 +13,7 @@ function Projects() {
       <div className="projects-page">
         <div className="projects-page-card">
           <div className="projects-page-card-top">
-            <Link to='/'> back to homepage</Link>
+            <Link to='/'>back to homepage</Link>
             <h1>projects</h1>
           </div>
           
