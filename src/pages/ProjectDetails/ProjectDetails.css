@@ -24,8 +24,27 @@
   object-fit: contain;
 }
 
-/* .project-details > article {
-} */
+.link-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 120px;
+  margin-top: 25px;
+}
+
+.github-icon, .website-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--ghost-white);
+  fill: var(--ghost-white);
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.github-icon:hover, .website-icon:hover {
+  transform: scale(1.1);
+}
 
 .project-details > article > h1 {
   margin-top: 25px;
