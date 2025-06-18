@@ -28,8 +28,8 @@ function Home() {
               id='portrait'
             />
             <div className='socials'>
-              <Link><LinkedinLogo className='linkedin' alt='LinkedIn Logo'/></Link>
-              <Link><GithubLogo className='github' alt='GitHub Logo'/></Link>
+              <a href="https://www.linkedin.com/in/renz-gabrinao-61a011266/" target="_blank" rel="noopener noreferrer"><LinkedinLogo className='linkedin' alt='LinkedIn Logo'/></a>
+              <a href="https://github.com/renzgabrinao" target="_blank" rel="noopener noreferrer"><GithubLogo className='github' alt='GitHub Logo'/></a>
             </div>
           </div>
           
