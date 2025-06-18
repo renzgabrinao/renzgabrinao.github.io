@@ -19,8 +19,8 @@
 }
 
 .project-details > img {
-  height: auto;
-  width: 600px;
+  height: 600px;
+  width: auto;
   object-fit: contain;
 }
 

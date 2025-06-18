@@ -11,18 +11,17 @@ function ProjectDetails() {
   const { id } = useParams();
 
   return (
-    <div class='project-details-page'>
+    <div className='project-details-page'>
       <Nav></Nav>
       <div className="project-details">
         <Link to="/projects"> back to projects</Link>
         <img 
-          src={defaultImg} 
+          src={`/projects/${projects[id].title}/${projects[id].img}`}
           alt={`Project image for ${projects[id].title}`}   
         />
         <div className="link-icons">
           {(projects[id].gh_link !== "") && (<a href={projects[id].gh_link} target="_blank" rel="noopener noreferrer"><GithubLogo className="github-icon"/></a>)}
           {(projects[id].web_link !== "") && (<a href={projects[id].web_link} target="_blank" rel="noopener noreferrer"><LinkIcon className="website-icon"/></a>)}
-          
         </div>
         <article>
           <h1>{projects[id].title}</h1>
