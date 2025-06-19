@@ -16,11 +16,12 @@
 .project-details > a {
   color: var(--antiflash-white);
   align-self: flex-start;
+  margin-bottom: 30px
 }
 
 .project-details > img {
-  height: 600px;
-  width: auto;
+  height: auto;
+  width: 85%;
   object-fit: contain;
 }
 

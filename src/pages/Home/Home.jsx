@@ -1,5 +1,6 @@
 // import images
 import defaultImg from "../../assets/img/default.jpg"
+import selfImg from "../../assets/img/self.jpg"
 import sfuLogo from '../../assets/img/logos/sfu-logo.png'
 import bcitLogo from '../../assets/img/logos/bcit-logo.png'
 import langaraLogo from '../../assets/img/logos/langara-logo.png'
@@ -23,7 +24,7 @@ function Home() {
         <div className='bio'>
           <div className='facecard'>
             <img 
-              src={defaultImg}
+              src={selfImg}
               alt="Portrait of me" 
               id='portrait'
             />
@@ -35,7 +36,7 @@ function Home() {
           
           <div className='bio-text'>
             <h2>hi, i'm renz gabrinao</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, deleniti reiciendis enim inventore eum voluptatem magni quidem voluptatibus sapiente eligendi ea, culpa corrupti vero suscipit excepturi? Et dolorem ratione inventore.</p>
+            <p>i'm a software engineering student with a background in full stack web development, currently studying at simon fraser university in burnaby, canada!</p>
           </div>
         </div>  {/*------------------- END bio ---------------------*/}
 
